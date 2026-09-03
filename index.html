@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Static App Demo</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main>
+    <h1>Static App Demo</h1>
+    <p>This is a plain HTML/CSS/JS static site with no build step, packaged for deployment on Velona.</p>
+
+    <button id="clickme">Click me</button>
+    <p id="output"></p>
+
+    <h2>Project structure</h2>
+    <pre>
+index.html
+style.css
+script.js
+assets/
+README.md
+    </pre>
+    <p>index.html sits at the top level, with no wrapper folder, so Velona detects it as a static site.</p>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>
